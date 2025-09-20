@@ -1,4 +1,183 @@
-.golden-img {
-    max-width: 50%;
-    height: auto;
+
+.logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.header-row {
+  display: flex;
+  align-items: center;
+  gap: 1em; 
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.header-row .logo-img {
+  margin: 0; 
+}
+
+.header-row h1 {
+  margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+
+.cat-img {
+  float: right;
+  margin: 0 0 2rem 1rem;
+  max-width: 450px;
+  height: auto;
+}
+
+.dog-img {
+  float: left;
+  margin: 0 1rem 2rem 0;
+  max-width: 450px;
+  height: auto;
+}
+
+.about {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15rem;
+}
+
+body {
+    background-color: #b41034a9;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.5rem;
+    margin: 0.5rem 4rem;
+    padding: 0.5rem;
+}
+
+.p-title {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: .5rem 4rem;
+    padding: 0.5rem;
+}
+
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+
+fieldset {
+  border: none;
+  padding: 0.5rem 0;
+  border-bottom: 3px solid #3b3b4f;
+  margin-top: 0.5rem;
+}
+
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  background-color: #cbcbd1;
+}
+
+
+input, textarea {
+  background-color: #cbcbd1;
+  border: 1px solid #0a0a23;
+  color: #998b8b;
+}
+
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #010114;
+  color: white;
+  border-color: white;
+  min-width: 300px;
+}
+
+nav {
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+
+nav > ul > li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+
+nav > ul > li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+
+li > a {
+  color: inherit;
+  text-decoration: none;
 }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="care-info.html">Care</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <main>
+    <h1>A <b>Solution</b> to <i>Your</i> Needs</h1>
+    
+    <figure>
+    <img src="images/dog.jpg" alt="Sitting dog on leash." title="dog-on-leash" max-width="450px" height="auto" class="dog-img">
+    <figcaption>Photo by Chris Gerrard on flickr.com</figcaption>
+    </figure>
+   
+    <p>Life can be unpredictable, and it isn’t always possible to plan ahead. Unexpected events such as work responsibilities or family matters can come up at any time. That’s why we provide a reliable service designed to give you peace of mind, ensuring that your dog is well cared for while you focus on other important responsibilities. Our goal is to make sure your pet feels safe, loved, and happy, so you can take care of what’s important without worrying about their well-being, even when it's last minute!</p>
+
+    <p>At Hound Dog Wag, we know that life gets busy: whether you’re heading out on a well-deserved vacation, traveling for work, or facing an unexpected family emergency. While these moments often take you away from home, they shouldn’t come with the added stress of worrying about your pet. That’s where we come in. Our caring and dependable team is dedicated to making sure your pet feels safe, comfortable, and loved while you’re away. From weekend getaways to extended trips, we provide the reliable support you need so you can focus on what matters most. With Hound Dog Wag, you can travel with confidence, knowing your furry family member is in trusted hands and receiving the same care and attention they would if you were home.</p>
+
+    <P>At Hound Dog Wag, we understand that while pets bring joy, comfort, and companionship, caring for them isn’t always easy for everyone. Some individuals face physical limitations or health challenges that make daily pet care difficult, while others may have service dogs that require specialized attention. Seniors, too, often cherish the bond they share with their pets but may find certain tasks, like walking, grooming, or lifting supplies, harder to manage over time. With nearly one in four Americans reporting a disability, and many more experiencing age-related challenges, the need for dependable, compassionate pet care is very real. That’s why we’re here: to provide extra support where it’s needed most. Our dedicated team ensures that pets remain healthy, active, and loved, while giving owners peace of mind and reducing the stress that comes with trying to manage everything alone. Whether it’s helping with daily routines, offering specialized care, or simply giving pets the attention they deserve, Hound Dog Wag is committed to treating every animal like family and supporting every owner with kindness and respect.</P>
+
+    <h2>Contact me for more information</h2>
+    <p class="center">Please fill out this form with the required information</p>
+    <form method="post" action='https://www.w3schools.com/action_page.php'>
+      <fieldset>
+        <legend>Contact Information:</legend>
+        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+        <label for="phone">Enter Your Phone Number: <input id="phone" name="phone" type="tel" /></label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Pet type</legend>
+        <label for="dog"><input id="dog" type="radio" name="pet-type" class="inline" checked /> Dog</label>
+        <label for="cat"><input id="cat" type="radio" name="pet-type" class="inline" /> Cat</label>
+        <label for="other"><input id="other" type="radio" name="pet-type" class="inline" /> Other</label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Additional Information</legend>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Flyer</option>
+            <option value="2">Friend</option>
+            <option value="3">Other</option>
+        </select>
+        </label>
+        <label for="pet-number">How many pets do you have? <input id="number" type="number" name="pet-number" min="1" max="10" /></label>
+        <label for="more-info">Tell me more about you and your pet(s):
+          <textarea id="more-info" name="more-info" rows="3" cols="30" placeholder="Breed(s), size, likes/dislikes..."></textarea>
+        </label>
+      </fieldset>
+      
+      <input type="submit" value="Send Request" />
+    </form>
+
+
+
+    </main>
+</body>
+
+</html>
